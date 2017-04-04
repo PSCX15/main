@@ -1,0 +1,10 @@
+
+<launch>
+  <rosparam command="load" file="launch/mainParam.yaml" />
+  
+  <include file="$(find gps)/launch/launchCapteurs.launch" />
+  
+  <include file="$(find servo)/launch/servo.launch" />
+  
+  
+</launch>

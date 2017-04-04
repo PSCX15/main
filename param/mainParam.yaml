@@ -1,0 +1,9 @@
+
+
+#Paramtres globaux
+
+
+maestroPath: "/dev/ttyACM0"
+ciPath: "/dev/ttyACM1"
+
+
