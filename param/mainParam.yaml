@@ -1,9 +1,9 @@
 
 
-#Paramtres globaux
+#Parametres globaux
 
 
-maestroPath: "/dev/ttyACM0"
-ciPath: "/dev/ttyACM1"
+maestroPath: "/dev/ttyACM1"
+ciPath: "/dev/ttyACM0"
 
 
