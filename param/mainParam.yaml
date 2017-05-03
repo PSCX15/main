@@ -5,5 +5,5 @@
 
 maestroPath: "/dev/ttyACM1"
 ciPath: "/dev/ttyACM0"
-
+particulesPAth: "/dev/ttyACM3"
 

@@ -1,12 +1,12 @@
 
 <launch>
-  <rosparam command="load" file="launch/mainParam.yaml" />
+  <rosparam command="load" file="$(find main)/param/mainParam.yaml" />
   
   <include file="$(find gps)/launch/launchCapteurs.launch" />
   
   <include file="$(find servo)/launch/servo.launch" />
   
-  <include file="$(find robot_localization)/launch/double/dual_efk_2D_rtab" />
+  <!-- <include file="$(find robot_localization)/launch/double/dual_efk_2D_rtab" /> -->
   
   
   
